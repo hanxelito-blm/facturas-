@@ -1,0 +1,149 @@
+{
+  "invoices": [
+    {
+      "id": "seed-1",
+      "number": "F-0001",
+      "date": "2025-01-15",
+      "fechaVencimiento": "2025-02-15",
+      "estadoPago": "Pagada",
+      "emisor": { "nombre": "TechStore S.A.", "ruc": "J-12345678-9" },
+      "cliente": { "nombre": "Juan Pérez", "direccion": "Av. Siempre Viva 123", "correo": "juan@example.com" },
+      "items": [
+        { "id": "item-1", "description": "Teclado", "quantity": 1, "unitPrice": 180 }
+      ]
+    },
+    {
+      "id": "seed-2",
+      "number": "F-0002",
+      "date": "2025-02-20",
+      "fechaVencimiento": "2025-03-20",
+      "estadoPago": "Pagada",
+      "emisor": { "nombre": "TechStore S.A.", "ruc": "J-12345678-9" },
+      "cliente": { "nombre": "María López", "direccion": "Calle 45 #12-30", "correo": "maria@example.com" },
+      "items": [
+        { "id": "item-2", "description": "Monitor", "quantity": 1, "unitPrice": 210 }
+      ]
+    },
+    {
+      "id": "seed-3",
+      "number": "F-0003",
+      "date": "2025-03-10",
+      "fechaVencimiento": "2025-04-10",
+      "estadoPago": "Pagada",
+      "emisor": { "nombre": "TechStore S.A.", "ruc": "J-12345678-9" },
+      "cliente": { "nombre": "Juan Pérez", "direccion": "Av. Siempre Viva 123", "correo": "juan@example.com" },
+      "items": [
+        { "id": "item-3", "description": "Mouse", "quantity": 3, "unitPrice": 45 },
+        { "id": "item-4", "description": "Teclado", "quantity": 1, "unitPrice": 60 }
+      ]
+    },
+    {
+      "id": "seed-4",
+      "number": "F-0004",
+      "date": "2025-04-05",
+      "fechaVencimiento": "2026-12-31",
+      "estadoPago": "Pendiente",
+      "emisor": { "nombre": "TechStore S.A.", "ruc": "J-12345678-9" },
+      "cliente": { "nombre": "Corporación X", "direccion": "Av. Principal 1000", "correo": "corpx@example.com" },
+      "items": [
+        { "id": "item-5", "description": "Servicio de Implementación", "quantity": 1, "unitPrice": 2450 }
+      ]
+    },
+    {
+      "id": "seed-5",
+      "number": "F-0005",
+      "date": "2025-05-12",
+      "fechaVencimiento": "2025-06-12",
+      "estadoPago": "Pendiente",
+      "emisor": { "nombre": "TechStore S.A.", "ruc": "J-12345678-9" },
+      "cliente": { "nombre": "Carlos Gómez", "direccion": "Cra 7 #89-20", "correo": "carlos@example.com" },
+      "items": [
+        { "id": "item-6", "description": "Laptop", "quantity": 1, "unitPrice": 220 }
+      ]
+    },
+    {
+      "id": "seed-6",
+      "number": "F-0006",
+      "date": "2025-06-18",
+      "fechaVencimiento": "2025-07-18",
+      "estadoPago": "Pagada",
+      "emisor": { "nombre": "TechStore S.A.", "ruc": "J-12345678-9" },
+      "cliente": { "nombre": "María López", "direccion": "Calle 45 #12-30", "correo": "maria@example.com" },
+      "items": [
+        { "id": "item-7", "description": "Audífonos", "quantity": 1, "unitPrice": 175 }
+      ]
+    },
+    {
+      "id": "seed-7",
+      "number": "F-0007",
+      "date": "2025-07-22",
+      "fechaVencimiento": "2025-08-22",
+      "estadoPago": "Pendiente",
+      "emisor": { "nombre": "TechStore S.A.", "ruc": "J-12345678-9" },
+      "cliente": { "nombre": "Ana Rodríguez", "direccion": "Calle 10 #5-40", "correo": "ana@example.com" },
+      "items": [
+        { "id": "item-8", "description": "Tablet", "quantity": 1, "unitPrice": 205 }
+      ]
+    },
+    {
+      "id": "seed-8",
+      "number": "F-0008",
+      "date": "2025-08-30",
+      "fechaVencimiento": "2025-09-30",
+      "estadoPago": "Pagada",
+      "emisor": { "nombre": "TechStore S.A.", "ruc": "J-12345678-9" },
+      "cliente": { "nombre": "Juan Pérez", "direccion": "Av. Siempre Viva 123", "correo": "juan@example.com" },
+      "items": [
+        { "id": "item-9", "description": "Cámara Web", "quantity": 1, "unitPrice": 190 }
+      ]
+    },
+    {
+      "id": "seed-9",
+      "number": "F-0009",
+      "date": "2025-09-14",
+      "fechaVencimiento": "2025-10-14",
+      "estadoPago": "Pagada",
+      "emisor": { "nombre": "TechStore S.A.", "ruc": "J-12345678-9" },
+      "cliente": { "nombre": "María López", "direccion": "Calle 45 #12-30", "correo": "maria@example.com" },
+      "items": [
+        { "id": "item-10", "description": "Silla Ergonómica", "quantity": 2, "unitPrice": 150 }
+      ]
+    },
+    {
+      "id": "seed-10",
+      "number": "F-0010",
+      "date": "2025-10-25",
+      "fechaVencimiento": "2025-11-25",
+      "estadoPago": "Pendiente",
+      "emisor": { "nombre": "TechStore S.A.", "ruc": "J-12345678-9" },
+      "cliente": { "nombre": "Carlos Gómez", "direccion": "Cra 7 #89-20", "correo": "carlos@example.com" },
+      "items": [
+        { "id": "item-11", "description": "Impresora", "quantity": 1, "unitPrice": 320 }
+      ]
+    },
+    {
+      "id": "seed-11",
+      "number": "F-0011",
+      "date": "2025-11-30",
+      "fechaVencimiento": "2025-12-30",
+      "estadoPago": "Pagada",
+      "emisor": { "nombre": "TechStore S.A.", "ruc": "J-12345678-9" },
+      "cliente": { "nombre": "Juan Pérez", "direccion": "Av. Siempre Viva 123", "correo": "juan@example.com" },
+      "items": [
+        { "id": "item-12", "description": "Router WiFi", "quantity": 1, "unitPrice": 95 }
+      ]
+    },
+    {
+      "id": "seed-12",
+      "number": "F-0012",
+      "date": "2025-12-05",
+      "fechaVencimiento": "2026-01-05",
+      "estadoPago": "Pagada",
+      "emisor": { "nombre": "TechStore S.A.", "ruc": "J-12345678-9" },
+      "cliente": { "nombre": "Ana Rodríguez", "direccion": "Calle 10 #5-40", "correo": "ana@example.com" },
+      "items": [
+        { "id": "item-13", "description": "Monitor 27\"", "quantity": 2, "unitPrice": 280 }
+      ]
+    }
+  ]
+}
